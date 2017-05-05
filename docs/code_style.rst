@@ -4,8 +4,8 @@ Basically, PEP8
 - Max line width: 79 chars (with flexibility to overflow by a "few chars" if
   the overflowing content is not semantically significant and avoids an
   explosion of vertical whitespace).
-- Use camel case for class and type names
-- Use underscores for functions and variables.
+- Use TitleCase (not camelCase, not lower_case) for class and type names.
+- Use lowercase_with_underscores (not camelCase) for functions and variables.
 - Use double quotes.
 - Use parentheses instead of '\\' for line continuation where ever possible
   (which is pretty much everywhere)
